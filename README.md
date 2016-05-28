@@ -5,7 +5,10 @@ Requires [Python](https://www.python.org) 2.7 or later and the [python-dateutil]
 
 Usage is as follows:
 
-    python polarflowexport.py <username> <password> <start_date> <end_date> <output_dir>
+    $ virtualenv venv
+    $ source venv/bin/activate
+    (venv) $ pip install -r requirements.freeze
+    (venv) $ python polarflowexport.py <username> <password> <start_date> <end_date> <output_dir>
 
 The start_date and end_date parameters are ISO-8601 date strings (i.e.
 year-month-day). An example invocation is as follows:
