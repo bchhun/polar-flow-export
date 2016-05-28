@@ -5,6 +5,12 @@ Requires [Python](https://www.python.org) 2.7 or later and the [python-dateutil]
 
 Usage is as follows:
 
+## Windows
+
+	python polarflowexport.py <username> <password> <start_date> <end_date> <output_dir>
+
+## Linux/Mac OS
+
     $ virtualenv venv
     $ source venv/bin/activate
     (venv) $ pip install -r requirements.freeze
